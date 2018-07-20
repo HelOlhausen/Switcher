@@ -76,8 +76,8 @@ class KNSwitcher: UIView {
     }
     
     func setImages(onImage:UIImage? , offImage :UIImage?) {
-            button.setImage(offImage, for: .normal)
-            button.setImage(onImage, for: .selected)
+            button.setBackgroundImage(offImage, for: .normal)
+            button.setBackgroundImage(onImage, for: .selected)
         }   
     
     required init?(coder aDecoder: NSCoder) {
